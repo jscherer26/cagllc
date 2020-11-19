@@ -1,0 +1,130 @@
+/*
+    Document   : style
+    Created on : Dec 12, 2010, 1:55:34 PM
+    Author     : James Scherer
+    Description:
+        Purpose of the stylesheet follows.
+
+*/
+
+
+/*--- General -------------------------------------------------*/
+.hidden {	visibility:hidden; }
+.float-left {	float:left; }
+.float-right { float:right; }
+.float-none { float:none; }
+/*--- Header -------------------------------------------------*/
+
+
+div#header-bg {
+height : 120px;
+margin: 0;
+padding: 0;
+}
+div#header a:link {
+color: black;
+}
+div#header a:visited {
+text-decoration : none;
+color:black;
+}
+div#header h2 { overflow: hidden; padding: 0; margin: 0;}
+div#header h5 { overflow: hidden; padding: 0; margin: 0; }
+
+.header-img {
+float: left;
+padding: 5px 30px 0 0;
+}
+.header-llc {
+/* background-color: red; */
+text-decoration: underline;
+margin-bottom: 4px;
+}
+.header-s1 {
+margin-top: -2px;
+}
+.header-s2 {
+margin-top: -2px;
+}
+.header-addr {
+margin : 4px 0 0 0;
+}
+.header-phone {
+}
+.header-email {
+margin : 4px 0 0 0;
+}
+.cdr-img {
+float: left;
+margin : 0 10px 10px 10px;
+height : 112px;
+width : 160px;
+}
+
+.cdr-retrieve-img {
+float: right;
+margin : 0 10px 10px 10px;
+height : 150px;
+width : 200px;
+}
+.accidents {
+	padding: 10px 0 10px 0;
+}
+.accident-img {
+	float: none;
+	padding : 0 15px 0 15px;
+	height : 140px;
+	width : 200px;
+}
+.accident-right-img {
+	float: right;
+	padding : 22px 15px 0px 15px;
+	height : 140px;
+	width : 200px;
+}
+.affiliations {
+	padding: 10px 0 0 0;
+}
+.affiliation-img {
+	float: none;
+	padding : 0 15px 0 15px;
+	height : 112px;
+	width : 160px;
+}
+.affiliation-word {
+	float: none;
+	padding : 0 15px 0 15px;
+}
+/*--- Footer -------------------------------------------------*/
+
+div#footer {
+float : left;	
+}
+.footer-img {
+	float: right;
+	padding : 0 5px 0 5px;
+	height : 40px;
+	width : 40px;
+}
+
+/*--- Table - CV -------------------------------------------------*/
+
+.table-cv
+{
+	width: 600px;
+	border-collapse: collapse;
+	text-align: left;
+  margin: 0px 20px 10px 30px;
+  padding: 0 0 0 0;
+}
+
+.table-cv tbody tr:hover td {	color: #009; }
+
+.table-cv-col1 { width: 300px; }
+
+.table-cv-col2 { width: 150px; }
+
+.table-cv-col3 { width: 045px; }
+
+.table-cv-col4 { width: 045px; }
+
